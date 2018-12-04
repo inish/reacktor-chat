@@ -2,7 +2,7 @@ version: '3'
 
 services:
   chat-server:
-    container_name: chat-server
+    container_name: chat-server-container
     build:
       context: ./server
       dockerfile: Dockerfile
@@ -10,7 +10,7 @@ services:
       - "3231:3231"
       
   chat-client:
-    container_name: chat-client    
+    container_name: chat-client-container    
     build:
       context: ./client
       dockerfile: Dockerfile
