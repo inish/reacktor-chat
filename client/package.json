@@ -1,0 +1,40 @@
+{
+  "name": "chat-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "i": "^0.3.6",
+    "install": "^0.12.2",
+    "jquery": "^3.3.1",
+    "npm": "^6.4.1",
+    "popper.js": "^1.14.5",
+    "prettier": "^1.15.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-icons": "^3.2.2",
+    "react-redux": "^5.1.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "redux-socket.io": "^1.4.0",
+    "socket.io": "^2.1.1",
+    "uuidv4": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": " react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

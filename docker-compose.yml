@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  chat-server:
+    container_name: chat-server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3231:3231"
+      
+  chat-client:
+    container_name: chat-client    
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
